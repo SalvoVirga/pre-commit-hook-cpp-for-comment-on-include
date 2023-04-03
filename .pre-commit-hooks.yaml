@@ -1,0 +1,7 @@
+- id: cpp-for-comment-on-include
+  name: cpp-for-comment-on-include
+  description: Checks that every include has a "// for" comment
+  entry: cpp-for-comment-on-include
+  language: python
+  stages: [commit, push, manual]
+  types: [c++]
